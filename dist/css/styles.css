@@ -5069,10 +5069,21 @@ textarea.form-control-lg {
   list-style-type: none;
   counter-reset: section;
 }
+
+i {
+  display: inline-block;
+  padding: 5px;
+}
+
+.icon-gradient{
+  color: #3F5EFB ;
+}
+
 .list-group-numbered > li::before {
   content: counters(section, ".") ". ";
   counter-increment: section;
 }
+
 
 .list-group-item-action {
   width: 100%;
